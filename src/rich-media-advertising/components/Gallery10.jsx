@@ -80,6 +80,32 @@ export function Gallery10() {
             />
           </a>
         </div>
+
+
+<div className="mt-10 flex justify-center">
+  <a
+    href="/creativegallery"
+    className="flex items-center gap-2 bg-red-500 hover:bg-red-600 uppercase text-white px-16 py-4 rounded-full border border-red-600 transition duration-300 ease-in-out shadow hover:shadow-lg"
+  >
+    Gallery
+    <svg
+      className="w-5 h-5 animate-wiggleRight"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9 5l7 7-7 7"
+      />
+    </svg>
+  </a>
+</div>
+
+
+
       </div>
     </section>
   );

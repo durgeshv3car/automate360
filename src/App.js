@@ -15,6 +15,7 @@ import NoPage from './NoPage';
 import BookDemo from './book-demo/page';
 import Apidocumantationversion2 from './api-documantation-version2/page';
 import Apidocumantationversion2mandarin from './api-documantation-version2-mandarin/page';
+import AdsSlider from './Creativegallery/page';
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
         <Route path="/apidocumantationversion2" element={<Apidocumantationversion2 />} />
         <Route path="/apidocumantationversion2mandarin" element={<Apidocumantationversion2mandarin />} />
         <Route path="/bookdemo" element={<BookDemo />} />
+        <Route path="/creativegallery" element={<AdsSlider />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
