@@ -50,15 +50,17 @@ const VideoWithSound = () => {
         onClick={toggleMute}
         style={{
           position: 'absolute',
-    bottom: "28%",
-    left: "14%",
-          padding: '10px 20px',
-          backgroundColor: '#000',
+    bottom: "30%",
+    left: "16%",
+          backgroundColor: 'red',
           color: '#fff',
           border: 'none',
           borderRadius: '4px',
           cursor: 'pointer',
           fontSize: '16px',
+          width:"30px",
+          height:"30px",
+          borderRadius:"30px"
         }}
       >
         {isMuted ? '🔇' : '🔊'}
