@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import VideoWithSound from "../../Component/VideoWithSound";
 
 export function Layout1() {
   return (
@@ -20,12 +21,16 @@ export function Layout1() {
             </p>
           </div>
           <div>
-            <img
+            {/* <img
                       src="./images/Connectedtvtemp/Connectedtvtemp5.jpg"
               className="w-full rounded-image object-cover"
               alt="Relume placeholder image"
               data-aos="flip-right"
-            />
+            /> */}
+
+<VideoWithSound></VideoWithSound>
+
+
           </div>
         </div>
       </div>

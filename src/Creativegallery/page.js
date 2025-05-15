@@ -16,6 +16,7 @@ const adList = [
   "https://dsp.eskimi.com/files/upload/rm/upload/66f67a9f6cee9/300x600_3/images/video.mp4",
   "https://dsp.eskimi.com/files/upload/rm/upload/672df1a55a61b/Standard_300x600_v7/assets/vid.mp4",
   "https://dsp.eskimi.com/files/upload/rm/upload/672e092ebab81/Standard_320x480_v7/assets/vid.mp4",
+  "https://creative.automate360.io/ctv-kiacarens"
 ];
 
 export default function AdsSlider() {
