@@ -26,7 +26,9 @@ const VideoWithSound = () => {
 
   return (
     <div style={{ position: 'relative',  margin: 0 }}>
-      <video
+ 
+ <a target='_black' href='https://creative.automate360.io/ctv-kiacarens/'>
+       <video
         ref={videoRef}
         autoPlay
         loop
@@ -40,6 +42,7 @@ const VideoWithSound = () => {
         <source src="../video/KiaCarensClavisTVAd.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+ </a>
  <img
                       src="./images/remotewithhand.png"
               className="w-auto noshadow ml-44 -mt-20"
