@@ -1,0 +1,69 @@
+{
+  "status": 200,
+  "status_message": "CampaignFound",
+  "campaigns": [
+    {
+      "AdvertiserName": "IntellectAdvertiser",
+      "AdvertiserId": "1",
+      "Campaignid": "258",
+      "CampaignName": "SharekhaFeb\u201920",
+      "Description": "Flow-instal\u2013register. A valid registration should have the name, city and phone number & is defined as net of test, dummy, junk, multiple/duplicate leads.",
+      "Package Name": "com.sharekhan.androidsharemobile",
+      "previewurl": "https://play.google.com/store/apps/details?id=com.sharekhan.androidsharemobile&hl=en_IN",
+      "StartDate": "2020-02-17",
+      "EndDate": "2021-02-17",
+      "Capping": "0",
+      "Creatives": [
+        {
+          "creativeTrackingLink": "http://track.intellectlite.com/offer/?cid=258&pid=612&did=504&code=648",
+          "creativeName": "Mailer A(18/02/2020)",
+          "creativeId": "504",
+          "imageUrl": null,
+          "size": null
+        },
+        {
+          "creativeTrackingLink": "http://track.intellectlite.com/offer/?cid=258&pid=612&did=512&code=648",
+          "creativeName": "sharekhan-144 by 144",
+          "creativeId": "512",
+          "imageUrl": "http://www.intellectlite.com/images/creatives/258-512.jpg",
+          "size": "144 x 144"
+        }
+      ],
+      "Blacklist": [],
+      "Country": "IN",
+      "OS": "Android",
+      "Payout Event": "Registration \u2013 Sharekhan",
+      "Payout Type": "CPI",
+      "Payout Value": 0.4,
+      "Payout Currency": "USD"
+    },
+    {
+      "Advertiser Name": "Intellect Advertiser",
+      "Advertiser Id": "1",
+      "Campaign id": "259",
+      "Campaign Name": "Vedantu \u2013 Feb\u201920",
+      "Description": "Cost Per Registration. Flow - Install -> Registration.",
+      "Package Name": "com.vedantu.app",
+      "preview url": "https://play.google.com/store/apps/details?id=com.vedantu.app",
+      "Start Date": "2020-02-17",
+      "End Date": "2021-02-17",
+      "Capping": "0",
+      "Creatives": [
+        {
+          "creativeTrackingLink": "http://track.intellectlite.com/offer/?cid=259&pid=612&did=507&code=262",
+          "creativeName": "Default Creative",
+          "creativeId": "507",
+          "imageUrl": "http://www.intellectlite.com/images/creatives/259-507.jpg",
+          "size": "144 x 144"
+        }
+      ],
+      "Blacklist": [],
+      "Country": "IN",
+      "OS": "Android",
+      "Payout Event": "Registration \u2013 Vedantu",
+      "Payout Type": "CPI",
+      "Payout Value": 0.18,
+      "Payout Currency": "USD"
+    }
+  ]
+}
